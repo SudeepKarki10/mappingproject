@@ -1,0 +1,396 @@
+@import url("https://fonts.googleapis.com/css2?family=Comfortaa&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Audiowide&display=swap");
+
+/*Scrollbar*/
+
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  background: #edece8;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #888;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+/*====================================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+/* ... (your existing CSS) */
+
+/* Additional styles for the form component */
+#map-container {
+  margin-top: 150px; /* Adjust the margin-top value based on the height of your navbar */
+  margin-left: 150px;
+  width: 90%;
+}
+
+#map {
+  margin-top: 20px; /* Adjust the margin top as needed */
+  width: 100%;
+}
+
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: #fff;
+}
+
+.header h1 {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+  margin-top: 20px; /* Adjust this value based on your design */
+}
+
+#survey-form {
+  width: 60%;
+  border-radius: 50px;
+  background: whitesmoke;
+  box-shadow: 29px 29px 58px #cecdca, -29px -29px 58px #ffffff;
+  margin-top: 20px; /* Adjust this value based on your design */
+  margin-left: 30%;
+}
+
+/* ... (your existing CSS) */
+
+/* mobile friendly alternative to using background-attachment: fixed */
+body::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  background-color: #fff;
+}
+
+h1 {
+  font-weight: 700;
+  line-height: 1.5;
+  font-size: 45px;
+  font-family: sans-serif;
+  color: #7c1aeb;
+  width: 50%;
+  margin-left: 25%;
+  /*border-radius: 20px;
+    background: #edece8;
+    box-shadow: 5px 5px 10px #d5d4d1,
+        -5px -5px 10px #ffffff;*/
+  margin-top: 100px;
+}
+
+p {
+  font-size: 20px;
+}
+
+h1 {
+  margin-top: 0;
+  margin-bottom: 0.2rem;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 0.6rem;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  font-size: 1rem;
+  margin-bottom: 0.5rem;
+}
+
+input,
+button,
+select,
+textarea {
+  margin: 0;
+  font-family: sans-serif;
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+}
+
+.header h1 {
+  padding: 0 0.625rem;
+  margin-bottom: 1.875rem;
+  margin-top: 100px;
+}
+
+.description {
+  font-style: italic;
+  font-weight: 200;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.4);
+}
+
+.clue {
+  margin-left: 0.5rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+  color: #f00;
+}
+
+.text-center {
+  text-align: center;
+}
+
+#header {
+  position: fixed;
+  top: 0;
+}
+/* form */
+
+#map {
+  height: 500px;
+  width: auto; /* Adjust the height as needed */
+}
+
+form {
+  background: transparent;
+  padding: 2.5rem 0.625rem;
+  border-radius: 0.25rem;
+}
+
+@media (min-width: 480px) {
+  form {
+    padding: 2.5rem;
+  }
+}
+
+.form-group {
+  margin: 0 1.25rem auto;
+  padding: 0.25rem;
+  margin-left: 0px;
+}
+
+.form-control {
+  display: block;
+  width: 100%;
+  color: #495057;
+  background-color: whitesmoke;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+
+  font-size: 20px;
+  padding: 1rem;
+  min-height: 3rem;
+  border-radius: 9px;
+  background: hitesmoke;
+  box-shadow: inset 6px 6px 13px #d5d4d1, inset -6px -6px 13px #ffffff;
+}
+
+.form-control:focus {
+  border-color: #ffffff;
+  outline: 0;
+  box-shadow: 0 0 0 0.2rem rgba(255, 255, 255, 0.25);
+}
+
+.input-radio,
+.input-checkbox {
+  display: inline-block;
+  margin-right: 0.625rem;
+  min-height: 1.25rem;
+  min-width: 1.25rem;
+}
+
+.input-textarea {
+  min-height: 4rem;
+  width: 100%;
+  padding: 1rem;
+  resize: vertical;
+  border: 0px;
+  color: #535353;
+  font-size: 20px;
+  border-radius: 10px;
+  background: whitesmoke;
+  box-shadow: inset 6px 6px 13px #d5d4d1, inset -6px -6px 13px #ffffff;
+}
+
+.submit-button {
+  display: block;
+  font-size: 20px;
+  color: #fff;
+  width: 20%;
+  padding: 0.3rem;
+  border: 0px;
+  border-radius: 50px;
+  background: rgb(103, 103, 218);
+  box-shadow: 6px 6px 12px #cecdca, -6px -6px 12px #ffffff;
+  margin-top: 200px;
+}
+
+#survey-form {
+  border-radius: 50px;
+  background: whitesmoke;
+  box-shadow: 29px 29px 58px #cecdca, -29px -29px 58px #ffffff;
+  margin-top: 150px;
+}
+
+#dropdown option {
+  outline: none;
+  border: none;
+  border-radius: 9px;
+  background: linear-gradient(145deg, #fefdf8, #d5d4d1);
+  box-shadow: 4px 4px 8px #d5d4d1, -4px -4px 8px #ffffff;
+}
+
+#description {
+  font-style: normal;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #111;
+  font-weight: 100;
+  width: 50%;
+  text-align: center;
+  letter-spacing: 5px;
+  border-radius: 5px;
+}
+#latitude,
+#longitude {
+  color: #111;
+}
+#radio-div {
+  margin-top: 10px;
+  padding: 1rem 2rem 0.5rem 2rem;
+  border-radius: 20px;
+  background: #edece8;
+  box-shadow: 5px 5px 10px #d5d4d1, -5px -5px 10px #ffffff;
+}
+
+#JT {
+  margin-bottom: -5px;
+  border: none;
+}
+
+#flex-input {
+  display: flex;
+  width: 100%;
+  padding-left: none;
+  margin-left: none;
+}
+
+#age {
+  margin-left: 0px;
+  margin-right: 5em;
+  width: 30%;
+}
+
+#divider {
+  color: #fff;
+  border: 2px solid #fff;
+}
+
+#tnclink {
+  text-decoration: none;
+  font-weight: 100;
+  color: #62b1f5;
+}
+
+#tnclink:hover {
+  color: red;
+  font-weight: 600;
+}
+
+#sex {
+  width: 50%;
+}
+
+#FTA {
+  padding: 1rem 2rem 1rem 2rem;
+  border-radius: 20px;
+  background: #edece8;
+  box-shadow: 5px 5px 10px #d5d4d1, -5px -5px 10px #ffffff;
+}
+
+#footer {
+  margin: 10% 0 5% 0;
+  font-size: 15px;
+  color: #777;
+  text-align: center;
+}
+
+/* ... (your existing CSS) */
+
+.form-group {
+  margin: 0 auto 1.25rem auto;
+  padding: 0.25rem;
+  position: relative; /* Make the position relative for absolute positioning of the map */
+}
+
+#map {
+  height: 700px; /* Adjust the height as needed */
+  width: 100%; /* Make the map take the full width of the form-group */
+  border-radius: 10px; /* Add border-radius to match the styling */
+  box-shadow: inset 6px 6px 13px #d5d4d1, inset -6px -6px 13px #ffffff; /* Add a subtle box shadow */
+}
+
+#popup-img {
+  width: 100%;
+  height: 80px;
+}
+
+.btn-container {
+  position: absolute;
+  top: 170px;
+  left: 0%;
+  background-color: #414695;
+  color: white;
+  height: 100vh;
+  padding-top: 0;
+}
+
+.btn-container h3 {
+  margin: 20px 30px;
+}
+
+/* Add this CSS to your component or your global styles */
+.btn-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  justify-content: center;
+}
+
+.btn-container button {
+  padding: 10px;
+  background-color: #724ede; /* Add your desired background color */
+  color: white; /* Add your desired text color */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+
+  margin: 10px 70px;
+}
+
+.btn-container button:hover {
+  background-color: #45a049; /* Add your desired hover background color */
+}

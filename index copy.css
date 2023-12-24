@@ -1,0 +1,148 @@
+#main-section {
+  height: auto; /* Set height to auto to adjust based on content */
+  /* Your existing styles */
+}
+
+.img-sec {
+}
+
+.welcome-gif {
+  height: 90px;
+}
+
+.img-sec img {
+  width: 100%;
+  height: 75%;
+}
+
+.text-sec {
+  background-color: #fffffff2;
+  padding-left: 130px;
+}
+
+.text-sec h1 {
+  font-size: 65px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 900;
+  opacity: 0.95;
+}
+
+.text-sec p {
+  font-size: 24px;
+  font-weight: 400;
+  opacity: 0.99;
+  margin-top: 20px;
+  padding-top: 20px;
+}
+
+.text-sec button {
+  border-radius: 10px;
+  padding: 10px;
+  margin-top: 10px;
+}
+
+/* Additional styling for button */
+button {
+  background-color: #007bff; /* Set the button background color */
+  color: #fff; /* Set the button text color */
+  padding: 10px 20px; /* Adjust padding for the button */
+  font-size: 16px; /* Adjust font size as needed */
+  border: none; /* Remove button border */
+  cursor: pointer; /* Add a pointer cursor on hover */
+}
+
+/* Style the button on hover */
+button:hover {
+  background-color: #0056b3; /* Change the background color on hover */
+}
+
+/*sercice css starts here*/
+.services-heading h1 {
+  border-bottom: 3px solid #1259a5; /* Adjust color as needed */
+  display: inline;
+}
+.services-section {
+  margin-top: 50px; /* Adjust margin as needed */
+
+  /* Style for each service */
+  .service {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    background-color: #f8f8f8;
+    margin: 10px;
+    border-radius: 10px;
+  }
+
+  /* Image style */
+  .service img {
+    width: 100%;
+    height: 200px; /* Adjust max height as needed */
+    object-fit: cover;
+    border-radius: 8px;
+  }
+
+  /* Title style */
+  .service h2 {
+    margin-top: 10px;
+    font-size: 24px;
+  }
+
+  /* Paragraph style */
+  .service p {
+    margin-top: 10px;
+    font-size: 18px;
+    color: #090909;
+    opacity: 0.8;
+  }
+}
+
+/*Service css ends here*/
+/* New Contact Section */
+.contact-section {
+  padding-top: 20px;
+  margin: 30px;
+  background-image: url("bg5.jpg"); /* Replace with the actual image path */
+  background-size: cover;
+  background-position: center;
+  opacity: 0.8; /* Set the opacity for the background image */
+}
+
+.contact-content {
+  padding: 50px; /* Adjust padding as needed */
+  color: rgb(255, 255, 255); /* Text color on the background image */
+  opacity: 1;
+}
+
+.contact-content h1 {
+  font-size: 52px;
+  margin-bottom: 20px;
+  color: rgb(230, 84, 0);
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 1);
+  opacity: 1; /* Full opacity for text */
+}
+
+.contact-content p {
+  font-size: 25px;
+  margin-bottom: 30px;
+  color: #ffff;
+  opacity: 8; /* Full opacity for text */
+}
+
+.contact-button {
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 1; /* Full opacity for button */
+}
+
+.contact-button:hover {
+  background-color: #0056b3;
+  opacity: 1; /* Full opacity on hover */
+}
